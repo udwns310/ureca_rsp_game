@@ -1,0 +1,28 @@
+/* src/css/Card.module.css */
+.card {
+    width: 200px;
+    height: 250px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+  .image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+  
+  .result {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff5722; /* 예시: 주황색 계열 */
+  }
+  
